@@ -601,11 +601,61 @@ td {
   gap: 18px;
 }
 
+.regional-dealers {
+  margin-bottom: 28px;
+}
+
+.regional-dealers h3 {
+  margin-bottom: 16px;
+  color: var(--steel-dark);
+}
+
 .dealer-grid strong {
   display: block;
   margin-bottom: 10px;
   color: var(--steel-dark);
   font-size: 24px;
+}
+
+.dealer-list {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dealer-list li {
+  display: grid;
+  gap: 5px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.dealer-list b {
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.dealer-list span,
+.dealer-list a {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dealer-list a {
+  color: var(--steel);
+  font-weight: 800;
+}
+
+.dealer-list em {
+  display: inline-block;
+  min-width: 42px;
+  margin-right: 6px;
+  color: var(--red);
+  font-style: normal;
+  font-weight: 800;
 }
 
 .dealer-table table {
